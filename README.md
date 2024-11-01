@@ -9,24 +9,26 @@ You need the Proteus Design Suite to play this game.
 ```
 git clone https://github.com/sinaabbasi1/sum-game.git
 ```
-2. **Open and run the project:** Navigate to the `src/` directory and then using Proteus software run the game.
+2. **Open and run the project:** The source file is located in `src/` directory. Open it using Proteus software.
 
 ## Game Environment
 
 **Sum Game** takes place in a 3x3 grid that forms the game environment. Each cell in the grid contains two blue 7-segment BCD displays, showing a two-digit number. Next to each cell is a button for selecting it. Additionally, there are three distinct cells, each with green 7-segment BCD displays, arranged so that the first cell's value is equal to the sum of the values in the second and third cells.
 This is a two-player game that requires you to obtain scores under timed conditions. Each player has a pair of red 7-segment BCD displays—one for time and the other for score. Two red LEDs are used to indicate each player’s turn. The game also includes subcircuits and input buttons for interacting with the grid, along with Reset, Clk (clock), and Start controls.
 
-<!--
 ## Screenshots
 
-| ![Initial Game Setup](./screenshots/initial_game_setup.png) | ![First Move](./screenshots/first_move.png) | ![Player 2's (Susan) Winning Opportunity](./screenshots/player_2's_winning_oppurtunity.png) |
-|:--:|:--:|:--:|
-| *a. Initial Game Setup* | *b. First Move* | *c. Player 2's (Susan) Winning Opportunity* |
+| ![Game Environment](./screenshots/Game%20Environment.png) | 
+|:--:| 
+| *Game Environment* |
 
-| ![Player 1's Defensive Move](./screenshots/player_1's_defensive_move.png) | ![Player 2's Second Attempt to Win](./screenshots/player_2's_second_attempt_to_win.png) | ![Player 2 Wins](./screenshots/player_2_wins.png) |
-|:--:|:--:|:--:|
-| *d. Player 1's Defensive Move* | *e. Player 2's Second Attempt to Win* | *f. Player 2 Wins* |
--->
+| ![Implementation Details (1)](./screenshots/Implementation%20Details%20(1).png) | 
+|:--:| 
+| *Implementation Details (1)* |
+
+| ![Implementation Details (2)](./screenshots/Implementation%20Details%20(2).png) | 
+|:--:| 
+| *Implementation Details (2)* |
 
 ## Game Rules
 
